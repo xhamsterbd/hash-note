@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-image {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .blog-content {
+            padding: 20px;
+        }
+
+        .blog-title {
+            font-size: 1.8em;
+            margin: 0;
+            color: #333;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .blog-price {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .blog-price .old-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-right: 10px;
+        }
+
+        .blog-price .discounted-price {
+            background-color: #668cff;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        .blog-author {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .blog-author img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .blog-author span {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .blog-rating {
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .blog-rating span {
+            margin-left: 5px;
+            color: #333;
+        }
+
+        .blog-description {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .blog-description p {
+            margin: 0 0 10px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="image.jpg" alt="Blog Image" class="blog-image">
+
+    <div class="blog-content">
+        <h1 class="blog-title">Prismatiscape Interaction System for Unreal 5.3+</h1>
+
+        <div class="blog-price">
+            <span class="old-price">$34.99</span>
+            <span class="discounted-price">$31.49+</span>
+        </div>
+
+        <div class="blog-author">
+            <img src="author.jpg" alt="Author" width="30" height="30">
+            <span>PrismaticaDev</span>
+        </div>
+
+        <div class="blog-rating">
+            <span>⭐ 5.0</span>
+            <span>(33 ratings)</span>
+        </div>
+
+        <div class="blog-description">
+            <p>For extra support, advice, and patch notes - join the Prismatiscape section of our Discord server:</p>
+            <p><a href="https://discord.com/invite/prismaticdevlearninghub">https://discord.com/invite/prismaticdevlearninghub</a></p>
+            <p>Please consider supporting via Patreon if you found value in the plugin 😊</p>
+            <p><a href="https://www.patreon.com/prismaticadev">https://www.patreon.com/prismaticadev</a></p>
+            <hr>
+            <p>Locally-bound global shader interaction system for Unreal Engine 5.3+</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
