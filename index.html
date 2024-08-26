@@ -13,6 +13,33 @@
             padding: 20px;
         }
 
+                /* Header styles */
+.header {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .home-icon img,
+.header .threeline-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.header .h1-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.home-icon, 
+.threeline-icon {
+    cursor: pointer;
+}
+
         h1 {
             font-size: 2em;
             color: #000;
@@ -92,7 +119,16 @@
     </style>
 </head>
 <body>
-    <h1>Products by Category</h1>
+    <!-- Header -->
+<header class="header">
+    <div class="home-icon">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCkXtTyVwEJPF_40Ir0tKJKI1JEYzySQPXoB6Fmo4SeZRtOTRHQe2wgT2w&s=10" alt="Home">
+    </div>
+    <h1 class="h1-title">products by categories</h1>
+    <div class="threeline-icon">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg-ioo5xWgN8lWLUN3dOa_0snqZ4KCsdpvNw&usqp=CAU" alt="Menu">
+    </div>
+</header>
 
     <div class="search-container">
         <input type="text" placeholder="Search products">
